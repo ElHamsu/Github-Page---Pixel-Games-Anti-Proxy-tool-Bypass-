@@ -82,4 +82,4 @@ most of PixelGames uses Proxycheck.io as their Anti-Proxy service so you can che
 Always use residantal proxy
 Remember Those!
 
-# If theres enough request, Same bypass tool will come for Chromium, used Firefox Zen for that bypass tool right now. Change the zen.exe in .bat file if youre using another browser
+## If there is enough demand, the same bypass tool will come for Chromium, currently Firefox Zen is used for this bypass tool. If you use another browser, replace zen.exe in the .bat file
