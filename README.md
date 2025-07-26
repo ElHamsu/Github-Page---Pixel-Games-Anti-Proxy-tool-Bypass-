@@ -22,8 +22,8 @@ https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/
 ## Extension's/AddOns settings:
 
 paste into my filters μblockorigin:
-| | ipinfo.io^$important
-| | browserleaks.com/webrtc$script
+||ipinfo.io^$important
+||browserleaks.com/webrtc$script
 
 Enable following settings in Trace/AdvancedProtections;
 UserAgentRandomizer
@@ -81,3 +81,5 @@ most of PixelGames uses Proxycheck.io as their Anti-Proxy service so you can che
 ### Remember! 
 Always use residantal proxy
 Remember Those!
+
+# If theres enough request, Same bypass tool will come for Chromium, used Firefox Zen for that bypass tool right now. Change the zen.exe in .bat file if youre using another browser
