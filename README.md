@@ -27,17 +27,21 @@ paste into my filters μblockorigin:
 
 ||browserleaks.com/webrtc$script
 
+
 Enable following settings in Trace/AdvancedProtections;
 UserAgentRandomizer
 ProxyIpHeaderSpoofing
 ClientRectsProtection
 
+
 Enable FakeMinimalScreenSize from CanvasBlocker/Apis
+
 
 #### Closing GeoLocation;
 write about:config on browser
 screach geo
 make geo.enabled False
+
 
 #### Creating profiles:
 Make 2 .bat Txt files and copy paste to first one;
