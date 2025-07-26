@@ -44,10 +44,12 @@ Make 2 .bat Txt files and copy paste to first one;
 echo Profiles creating`
 
 `start "" /WRITE ROOT FILE OF BROWSER HERE\zen.exe" -CreateProfile "proxy1"`
+
 `start "" /WRITE ROOT FILE OF BROWSER HERE\zen.exe" -CreateProfile "proxy2"`
 
-`echo All profiles created
-pause`
+`echo All profiles created`
+
+`pause`
 
 #### to second .bat file;
 
@@ -55,12 +57,14 @@ pause`
 echo Opening profiles`
 
 `start "" "/WRITE ROOT FILE OF BROWSER HERE\zen.exe" -P "proxy1" -no-remote
-timeout /t 1 >nul
-start "" "/WRITE ROOT FILE OF BROWSER HERE\zen.exe" -P "proxy2" -no-remote
 timeout /t 1 >nul`
 
-`echo All profiles started
-pause`
+`start "" "/WRITE ROOT FILE OF BROWSER HERE\zen.exe" -P "proxy2" -no-remote
+timeout /t 1 >nul`
+
+`echo All profiles started`
+
+`pause`
 
 The first .bat file creates profiles, the second one opens them, those profiles works like vurtial PC but for browser, you will have to do everything that i said above for every browser profile ! Those work by running
 
