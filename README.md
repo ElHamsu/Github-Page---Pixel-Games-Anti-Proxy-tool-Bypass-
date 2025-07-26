@@ -22,7 +22,9 @@ https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/
 ## Extension's/AddOns settings:
 
 paste into my filters μblockorigin:
+
 ||ipinfo.io^$important
+
 ||browserleaks.com/webrtc$script
 
 Enable following settings in Trace/AdvancedProtections;
