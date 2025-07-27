@@ -23,9 +23,15 @@ https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/
 
 paste into my filters μblockorigin:
 
-||ipinfo.io^$important
+||proxycheck.io^$important
 
-||browserleaks.com/webrtc$script
+||ipqualityscore.com^$important
+
+||ip-api.com^$important
+
+||ipwhois.app^$important
+
+||ipdata.co^$important
 
 
 Enable following settings in Trace/AdvancedProtections;
